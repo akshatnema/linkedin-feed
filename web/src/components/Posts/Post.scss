@@ -1,0 +1,50 @@
+.posts{
+    z-index: 1;
+    position: relative;
+    margin: 10px auto;
+    max-width: 75vh;
+    .following{
+        font-size: 0.8rem;
+        :hover{
+            color: #0a66c2;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+    .profile{
+        .profile-pic{
+            margin: auto 0px;
+            cursor: pointer;
+            img{
+                border-radius: 50%;    
+            }
+        }
+        .profile-det{
+            .profile-name{
+                font-size: 1rem;
+            }
+            .profile-name:hover {
+                color: #0a66c2;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+            .profile-desc{
+                font-size: 0.8rem;
+            }
+            .post-date{
+                font-size: 0.8rem;
+            }
+        }
+    }
+    .post-pic{
+       .post-img{
+           width: 100%
+       }
+    }
+    .post-button{
+        .d-flex:hover{
+            cursor: pointer;      
+            color:#0a66c2;
+        }
+    }
+}
